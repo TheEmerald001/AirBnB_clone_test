@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
     height: 90px;
 
@@ -63,20 +63,184 @@ body {
 
 .user-icon {
     display: flex;
-    background-color: white;
     align-items: center;
-    height: 60px;
-    width: 120px;
+    background-color: white;
+    height: 50px;
+    width: 90px;
+    margin: 0px;
     margin-top: 5px;
-    border-radius:30px;
+    border-radius: 30px;
 }
 
-.icon {
-    display: flex;
-    width: 43px;
-    border-radius: 0px;
-}
+.user-icon:hover .dropdown-content{display: block;}
 
 .menu-icon {
-    width: 30px;
+    width: 130px;
+    height: 0;
+    border-radius: 15;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: none; 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 700;
+    height: 65px;
+    padding: 10px;
+}
+
+
+h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px 100px -15px 0px;
+}
+
+h4{
+    font-weight: 300;
+}
+
+.search-button{
+    width: 60px;
+    border-radius: 35px;
+
+}
+
+.who {
+    width: 20%;
+    margin-left: 20px;
+    height: 80;
+}
+
+.where {
+    width: 20%;
+    margin-left: 20px;
+    border-right: 1px solid rgb(231, 236, 236);
+    height: 80;
+}
+.check-out {
+    width: 20%;
+    margin-left: 10px;
+    border-right: 1px solid rgb(231, 236, 236);
+    height: 80;
+}
+.check-in {
+    width: 20%;
+    margin-left: 10px;
+    border-right: 1px solid rgb(231, 236, 236);
+    height: 80;
+}
+
+.where:hover {
+    background-color: whitesmoke;
+    border-radius: 60px;
+}
+
+.check-out:hover {
+    background-color: whitesmoke;
+    border-radius: 60px;
+}
+
+.check-in:hover {
+    background-color: whitesmoke;
+    border-radius: 60px;
+}
+.who:hover {
+    background-color: whitesmoke;
+    border-radius: 60px;
+}
+.shelters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 40px;
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    height: 65px;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1;
+    
+}
+.maso-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.bunga-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.apa-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.condo-button {
+
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ranch-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.tao-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.go-button {
+    width: 35px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+.arbo-button {
+    width: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+    
