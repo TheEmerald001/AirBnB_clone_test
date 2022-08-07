@@ -40,7 +40,7 @@ all  destroy  show  update
 (hbnb) help quit
 Exit the program
 (hbnb) quit
-beldine@ubuntu:~$
+steve@ubuntu:~$
 ```
 
 In non-interactive mode:
@@ -64,7 +64,7 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb)
-beldine@ubuntu:~$
+steve@ubuntu:~$
 ```
 The `console` can `create`, `destroy`, and `update` objects. Type `help` within the console to get a list of command options and its function.
 
