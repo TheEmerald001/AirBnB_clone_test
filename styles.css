@@ -243,4 +243,21 @@ h4{
     margin-left: 40px;
     margin-right: 10px;
 }
+.sub-section{
+    display: flex;
     
+}
+.image1{
+display: block;
+justify-content: space-between;
+background-color: white;
+width: 300px;
+border-radius: 30px;
+text-align: center;
+float: left;
+
+}
+h1{
+    font-weight: 500;
+}
+
